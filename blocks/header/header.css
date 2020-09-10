@@ -1,0 +1,10 @@
+.header{
+    display: flex;
+    min-height: 52px;
+    height: 100%;
+    width: 95%;
+    margin: auto;
+    justify-content: space-between;
+    
+    
+}

@@ -1,0 +1,29 @@
+
+.logo {
+    background-image: url(../../images/header-logo.svg);
+    background-repeat: no-repeat;
+    width:50%;
+    background-size: contain;
+    justify-self: center;
+}
+/* 
+
+@media  (max-width: 1024px) {
+    .logo {
+
+
+    }
+}
+@media (max-width: 768px) {
+    .logo {
+
+
+    }
+} */
+
+@media  (max-width: 425px) {
+    .logo {
+    max-width: 50%;
+    font-size: 18px;
+    line-height: 20px;
+    }}
