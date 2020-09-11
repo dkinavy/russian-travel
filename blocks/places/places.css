@@ -2,3 +2,10 @@
 .places{
     margin-top: 2vw;
 }
+@media  (max-width: 1200px) {
+    .places {
+    max-width: 928px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+}

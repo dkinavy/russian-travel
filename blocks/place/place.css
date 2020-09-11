@@ -4,20 +4,27 @@
     margin-right: auto;
     margin-top: 3vw;
     display: grid;
-    grid-template-columns: 50% 50% ;
+    grid-template-columns: calc(50% - 20px) calc(50% - 20px) ;
     /* grid-template-columns: minmax(340px, 3) minmax(min-content, 1fr);
     grid-template-rows: auto auto; */
     grid-template-areas:
     "title website"
     "image paragraph";
-    gap: 2vw;
+    /* gap: 2vw; */
+    column-gap: 40px;
+    row-gap: 48px;
+    padding: 0 10px  0 10px;
 }
-@media  (max-width: 768px) {
+
+
+
+@media  (max-width: 550px) {
     .place{
         grid-template-columns: 100% ;
         grid-template-areas:
         "title"
         "image"
         "paragraph";
+        padding: 0 ;
     }
 }

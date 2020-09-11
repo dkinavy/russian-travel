@@ -6,9 +6,9 @@
     
 }
 
-@media  (max-width: 768px) {
+@media  (max-width: 550px) {
     .place__website{
-       display: none;
+    display: none;
         /* or 110% */
         
     }

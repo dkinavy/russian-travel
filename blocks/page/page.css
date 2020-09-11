@@ -2,6 +2,6 @@
     background-color: #2A2C2F;
     margin: 0 auto;
     /* выше для экранов больше 1600px отцентрировали весь контент */
-    font-family: 'Inter';
+    font-family: 'Inter',Arial, Helvetica, sans-serif;
     color: #ffffff;
 }

@@ -5,11 +5,11 @@
     line-height: 1.14;
 /* identical to box height, or 114% */
 }
-@media  (max-width: 768px) {
+@media  (max-width: 550px) {
     .footer__copyright{
         margin-left: 1vw;
         line-height: 1;
-        margin-top: 10vw;
+        margin-top: 14px;
         /* identical to box height, or 100% */      
     }
 }

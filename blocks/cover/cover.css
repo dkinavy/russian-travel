@@ -4,10 +4,30 @@
     grid-template-columns:1fr;
     grid-template-rows:1fr 1fr;
     max-width: 1184px;
+
     margin-left: auto;
     margin-right: auto;
-    
-    position: relative;
+    display: flex;
+    position: relative; 
     justify-items: center;
+    
     }
+.cover::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #2A2C2F;
+    opacity: 0.3;
+    transition: opacity 0.5s; 
+}
+
+.cover:hover::before {
+        opacity: 0.8;
+}
+
+    
+
     
