@@ -13,7 +13,7 @@ z-index: 1;
     text-decoration-line: none;
     color: white;
 }
-@media  (max-width: 768px) {
+@media  (max-width: 767px) {
     .cover__title{
         font-size: 32px;
         line-height: 1.09;
