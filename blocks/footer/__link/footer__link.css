@@ -1,25 +1,27 @@
-.footer__link:first-child{
-    margin-left: 1vw;
-    margin-right: 9px;
-}
+
 .footer__link {
-    margin-left: 9px;
-    margin-right: 9px;
+
+    margin-right: 18px;
     font-size: 16px;
     line-height: 1.12;
     color: #ffffff;
     text-decoration: none;   
 /* identical to box height, or 112% */
 }
-@media  (max-width: 550px) {
+@media  (max-width: 650px) {
     .footer__link{
         font-size: 24px;
-        margin-left: 1vw;
+
         line-height: 1;
-        margin-bottom: 32px;
+        margin: 0 0 32px;
+        display: block;
         /* identical to box height, or 100% */      
     }
 }
+/* .footer__link:nth-child(5) {
+    margin-bottom: 48px;
+    } */
+    
 .footer__link:hover{
     opacity: 0.8;
     transition: 0.5s;
